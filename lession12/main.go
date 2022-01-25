@@ -20,6 +20,11 @@ func main() {
 
 	fmt.Println(name)
 
+	// Pointer
+	fmt.Println("Memory address : ", &name)
+	m := &name
+	fmt.Println("Value :", *m)
+
 	// Type group B -> slices, maps, functions
 	// Reference pass
 	menu := map[string]float64{
